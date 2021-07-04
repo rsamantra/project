@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "ede6799d-2d21-42e8-9020-75574e50a369",
+		"name": "Django Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/v1/create-item/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "item",
+							"value": "Book1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/create-item/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"create-item",
+						""
+					]
+				},
+				"description": "Create Item API"
+			},
+			"response": []
+		}
+	]
+}
